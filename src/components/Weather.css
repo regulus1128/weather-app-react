@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+}   
+
+.container{
+    height: 70vh;
+    width: 40vw;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(222,0,175);
+    background: linear-gradient(90deg, rgba(222,0,175,0.9943627109046743) 26%, rgba(193,11,236,1) 100%);
+
+}
+
+.search-bar{
+    margin-top: 20px;
+
+    justify-content: space-evenly;
+    display: flex;
+    /* background: linear-gradient(90deg, rgba(222,0,175,0.9943627109046743) 26%, rgba(193,11,236,1) 100%); */
+
+
+
+}
+.search-bar input::placeholder{
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.search-bar input{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    width: 270px;
+    /* height: 35px; */
+    outline: none;
+    border-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    border-radius: 40px;
+    padding-left: 10px;
+    background: linear-gradient(90deg, rgba(222,0,175,0.9943627109046743) 26%, rgba(193,11,236,1) 100%);
+
+}
+
+.search-bar img{
+    /* background-color: aquamarine; */
+    border-radius: 40px;
+    margin-left: 25px;
+    /* background: linear-gradient(90deg, rgba(222,0,175,0.9943627109046743) 26%, rgba(193,11,236,1) 100%); */
+
+
+}
+
+.search-bar img:hover{
+    cursor: pointer;
+}
+
+.weather-info{
+    margin-top: 40px;
+    height: 210px;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: rgb(222,0,175); */
+    /* background: linear-gradient(90deg, rgba(222,0,175,0.9943627109046743) 26%, rgba(193,11,236,1) 100%); */
+}
+.city{
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    color: white;
+
+}
+.other{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 5px;
+    color: white;
+    /* background: linear-gradient(90deg, rgba(222,0,175,0.9943627109046743) 26%, rgba(193,11,236,1) 100%); */
+
+}
+
+.additional-info{
+    height: 100px;
+    /* border: 1px solid black; */
+    width: 90%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(222,0,175,0.9943627109046743) 26%, rgba(193,11,236,1) 100%);
+
+
+}
+.wind{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wind p{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+#wind-text{
+    margin-top: 10px;
+
+}
+.humidity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.humidity p{
+    font-family: "Source Sans 3", sans-serif;
+    color: white;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
